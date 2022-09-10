@@ -1,0 +1,127 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "plugins": [
+      "react",
+      "jsx-a11y",
+      "import",
+      "react-hooks"
+    ],
+    "env": {
+      "browser": true,
+      "jest": true
+    },
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "import/prefer-default-export": "off",
+      "max-len": [
+        "warn",
+        {
+          "code": 100,
+          "ignoreStrings": true,
+          "ignoreTemplateLiterals": true,
+          "ignoreComments": true
+        }
+      ],
+      "react/jsx-max-props-per-line": [
+        1,
+        {
+          "maximum": 2,
+          "when": "multiline"
+        }
+      ],
+      "no-use-before-define": [
+        "error",
+        {
+          "functions": false,
+          "classes": false
+        }
+      ],
+      "indent": [
+        "error",
+        2,
+        {
+          "ignoredNodes": [
+            "JSXElement"
+          ],
+          "SwitchCase": 1
+        }
+      ],
+      "no-restricted-syntax": [
+        "error",
+        "LabeledStatement",
+        "WithStatement"
+      ],
+      "prefer-destructuring": [
+        "error",
+        {
+          "object": true,
+          "array": false
+        }
+      ],
+      "nonblock-statement-body-position": [
+        "error",
+        "beside"
+      ],
+      "react/jsx-indent-props": [
+        "error",
+        2
+      ],
+      "func-names": [
+        "error",
+        "as-needed"
+      ],
+      "curly": [
+        "error",
+        "multi-or-nest"
+      ],
+      "react/jsx-indent": [
+        "error",
+        2
+      ],
+      "jsx-a11y/label-has-for": [
+        2,
+        {
+          "components": [
+            "Label"
+          ],
+          "required": {
+            "some": [
+              "id"
+            ]
+          },
+          "allowChildren": false
+        }
+      ],
+      
+      "react/jsx-props-no-spreading": "off",
+      "react/forbid-prop-types": [1, { "forbid": ["any", "array", "object"], "checkContextTypes": false, "checkChildContextTypes": false}],
+  
+      "jsx-a11y/click-events-have-key-events": 0,
+      "import/no-named-as-default": 0,
+      "react/no-array-index-key": 0,
+      "class-methods-use-this": 0,
+      "no-prototype-builtins": 0,
+      "react/button-has-type": 0,
+      "no-param-reassign": 0,
+      "no-await-in-loop": 0,
+      "linebreak-style": 0,
+      "global-require": 0,
+      "dot-notation": 0,
+      "guard-for-in": 0,
+      "no-continue": 0,
+      "no-bitwise": 0,
+      "camelcase": 0,
+      "no-alert": 0
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "paths": [
+            "src"
+          ]
+        }
+      }
+    }
+  }
