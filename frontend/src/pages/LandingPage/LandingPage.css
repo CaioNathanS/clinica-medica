@@ -8,9 +8,13 @@
 .card {
     font-size: 36px;
     text-align: center;
-    background-color: dodgerblue;
+    background-color: rgb(13, 13, 14);
     color: white;
     padding: 40px;
+}
+.card:hover{
+    cursor: pointer;
+    background: rgba(13, 13, 14, 0.815)
 }
 .cards {
     padding: 40px;
