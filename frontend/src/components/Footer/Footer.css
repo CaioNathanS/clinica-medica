@@ -1,0 +1,24 @@
+.footer-Container{
+    width: 100%;
+    background: rgba(159, 91, 201, 0.881);
+}
+.footer-items{
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+.item{
+    font-size: 26px;
+    padding: 20px;
+    border: 1px solid black;
+    min-width: fit-content;
+}
+.item i:hover{
+    font-size: 30px;
+}
+@media (max-width: 800px) {
+    .footer-items { grid-template-columns: repeat(1, 1fr); }
+}
