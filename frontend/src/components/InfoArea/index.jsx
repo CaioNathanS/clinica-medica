@@ -1,0 +1,1 @@
+export {InfoArea} from './InfoArea';

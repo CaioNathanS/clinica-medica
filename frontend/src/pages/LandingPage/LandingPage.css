@@ -4,7 +4,7 @@
 
 .title{
     margin-top: 40px;
-    color: white;
+    color: rgb(27, 132, 130);
     text-align: center;
 }
 .infos{
@@ -27,24 +27,27 @@ p.warning{
     font-size: 17px;;
 }
 .card {
+    border-radius: 2px;
     font-size: 36px;
     text-align: center;
-    background-color: rgb(13, 13, 14);
+    background-color: rgb(17, 17, 183);
     color: white;
     padding: 40px;
+    border: 1px solid transparent;
 }
 .card:hover{
+    border: 1px solid white;
     cursor: pointer;
     background: rgba(13, 13, 14, 0.815)
 }
 .cards {
-    padding: 40px;
+    padding: 40px 15px 20px 15px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
 }
 hr{
-    margin:0px 2%;
+    margin:0px 1%;
     border: 0.1px solid black;
 }

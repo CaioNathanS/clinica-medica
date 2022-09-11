@@ -1,6 +1,7 @@
 import React from 'react';
+import { InfoArea } from '../../components/InfoArea';
 import { CardArea } from './components/CardArea/CardArea';
-import { InfoArea } from './components/InfoArea/InfoArea';
+
 
 import './LandingPage.css';
 export function LandingPage() {

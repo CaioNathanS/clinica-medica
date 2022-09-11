@@ -1,0 +1,30 @@
+.consultsPage-agendamentoButton{
+    border-radius: 30px !important;
+    cursor: pointer;
+    border: 1px solid rgb(97, 93, 93);
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 6px 20px;
+    background: rgb(49, 168, 49);
+    position: absolute;
+    right: 40px;
+    top:55px
+}
+.consultsPage-voltarButton{
+    text-align: left;
+    border-radius: 30px !important;
+    cursor: pointer;
+    border: 1px solid rgb(97, 93, 93);
+    color: rgb(130, 48, 181);
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 6px 20px;
+    background: white;
+    position: absolute;
+    right:235px;
+    top:55px
+}
+.fa-long-arrow-left{
+    margin-right: 5px;
+}
