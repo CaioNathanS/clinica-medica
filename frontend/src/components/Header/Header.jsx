@@ -1,12 +1,12 @@
 import React from 'react';
 import './Header.css';
+import logo from '../../assets/lorem.jpg';
 export function Header() {
 
   return (
     <div className='header-Container'>
-      <div className='header-items'>
-        <i className='fa fa-whatsapp'/>{' (64)99999-9999 '} 
-        <i className='fa fa-phone'/>{' (64)99999-9999 '} 
+      <div className='header-logo'>
+        <img src={logo} alt='logo'/>
       </div>
     </div>
   );

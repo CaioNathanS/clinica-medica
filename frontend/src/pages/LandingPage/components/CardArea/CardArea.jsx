@@ -5,7 +5,6 @@ export function CardArea() {
 
   return (
     <div>
-        <h1 className='title'> Landing Page </h1>
         <div className='cards'>
           <Card title='Consultas' icon='fa fa-user-md' pageRoute='consultas' />
           <Card title='Exames' icon='fa fa-heartbeat' pageRoute='exames' />
