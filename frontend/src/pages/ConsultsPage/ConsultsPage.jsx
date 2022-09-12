@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Header } from '../../components/Header/Header';
 import { InfoArea } from '../../components/InfoArea';
 import './ConsultsPage.css';
 export function ConsultsPage() {
@@ -10,18 +11,56 @@ export function ConsultsPage() {
 
   return (
     <div className='consultsPage-Container'>
-      <div className='consultsPage-actions'> 
-        <h1 className='title'> Consultas </h1>
-          <button className='consultsPage-agendamentoButton'>
+      <Header/>
+        {/*<button className='consultsPage-agendamentoButton'>
           <i className='fa fa-whatsapp'/>  Agendamento
           </button>
           <button  className='consultsPage-voltarButton' onClick={()=> navigate('/') }>
           <i className='fa fa-long-arrow-left'/> 
             Voltar
-          </button>
+        </button> */}
+      <hr/>
+      <div className='table'> 
+        <div className='tableHeader'>
+          <p>Consultas</p>
+          <p>Exames</p>
+          <p>Procedimentos</p>
+        </div>
+        <div className='tableBody'>
+        <div>
+        <p>Consultas</p>
+        <p>Exames</p>
+        <p>Procedimentos</p>
+        <p>Consultas</p>
+        <p>Exames</p>
+        <p>Procedimentos</p>
+        </div>
+        <div>
+        <p>Consultas</p>
+        <p>Exames</p>
+        <p>Procedimentos</p>
+        <p>Consultas</p>
+        <p>Exames</p>
+        <p>Procedimentos</p>
+        <p>Consultas</p>
+        <p>Exames</p>
+        <p>Procedimentos</p>
+        <p>Consultas</p>
+        <p>Exames</p>
+        <p>Procedimentos</p>
+        </div>
+        <div>
+        <p>Consultas</p>
+        <p>Exames</p>
+        <p>Procedimentos</p>
+        <p>Consultas</p>
+        <p>Exames</p>
+        <p>Procedimentos</p>
+        <p>Consultas</p>
+        <p>Exames</p>
+        <p>Procedimentos</p>
+        </div>
       </div>
-      <div>
-        Lista de Consultas
       </div>
       <hr/>
       <InfoArea/>

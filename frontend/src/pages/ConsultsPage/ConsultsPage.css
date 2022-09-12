@@ -1,3 +1,29 @@
+.consultsPage-title{
+    padding: 0px 120px;
+    color:  rgb(109, 122, 204);;
+    font-size: 40px;
+    text-align: left;
+}
+.table{
+    padding: 10px 0px;
+}
+.tableHeader{
+    color: rgb(22, 154, 110);
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    padding: 0px 40px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.tableBody{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    padding: 0px 40px;
+    justify-content: space-between;
+}
 .consultsPage-agendamentoButton{
     border-radius: 30px !important;
     cursor: pointer;
@@ -9,7 +35,7 @@
     background: rgb(49, 168, 49);
     position: absolute;
     right: 40px;
-    top:55px
+    top:10%
 }
 .consultsPage-voltarButton{
     text-align: left;
@@ -23,8 +49,12 @@
     background: white;
     position: absolute;
     right:235px;
-    top:55px
+    top:10%
 }
 .fa-long-arrow-left{
     margin-right: 5px;
+}
+@media (max-width: 800px) {
+    .consultsPage-title { text-align: center; padding: 0; }
+    
 }

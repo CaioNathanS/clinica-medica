@@ -4,7 +4,7 @@ export function ExamsPage() {
 
   return (
     <div className='examsPage-Container'>
-        <h1 className='title'> Exams Page </h1>
+        <h1 className='title'> Exames </h1>
     </div>
   );
 }
