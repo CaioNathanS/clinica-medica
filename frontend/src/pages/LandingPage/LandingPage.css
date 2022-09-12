@@ -26,19 +26,30 @@ p.warning{
 .info-item p{
     font-size: 17px;;
 }
+.fa-heartbeat{
+    color: rgb(177, 31, 31);
+}
+.fa-info{
+    color: rgba(53, 53, 187, 0.801);
+}
+.fa-address-book-o{
+    color: rgb(156, 108, 35);
+}
 .card {
+    box-shadow: 5px 5px 5px 5px rgb(203, 199, 199);
     border-radius: 2px;
     font-size: 36px;
     text-align: center;
-    background-color: rgb(17, 17, 183);
-    color: white;
+    color: rgb(63, 111, 124);
     padding: 40px;
     border: 1px solid transparent;
 }
+.card p{
+    color: rgb(65, 65, 65);
+}
 .card:hover{
-    border: 1px solid white;
     cursor: pointer;
-    background: rgba(13, 13, 14, 0.815)
+    background: rgba(169, 169, 177, 0.815)
 }
 .cards {
     padding: 40px 15px 20px 15px;
