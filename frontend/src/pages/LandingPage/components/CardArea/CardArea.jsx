@@ -10,7 +10,7 @@ export function CardArea() {
           <Card title='Exames' icon='fa fa-heartbeat' pageRoute='exames' />
           <Card title='Quem Somos' icon='fa fa-info' pageRoute='sobre' />
           {/*  <Card title='Contato' icon='fa fa-whatsapp' pageRoute='contato'/> */}
-          <Card title='Agendamento' icon='fa fa-address-book-o' pageRoute='agendamento' />
+          <Card title='Agendamento' icon='fa fa-whatsapp' pageRoute='agendamento' />
         </div>
     </div>
   );
