@@ -15,7 +15,10 @@ incluindo sala de exames, laboratórios, consultórios médicos, sala de espera,
 Agende sua consulta!
         </p>
         <div className='wppButton'>
-        <button><i className='fa fa-whatsapp'> </i> Agendar</button>
+          <a href='https://wa.me/XXXXXXXX'>
+          <button ><i className='fa fa-whatsapp'> </i> Agendar</button>
+          </a>
+        
         </div>
        
         <hr/>

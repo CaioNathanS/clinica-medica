@@ -25,7 +25,8 @@ const [show,setShow]=useState(false);
           <Card title='Cirurgias e Procedimentos' imagem={cirurgiaIcon} pageRoute='procedimentos' />
           <Card title='Odontologia' imagem={odontoIcon} pageRoute='odonto' />
           <Card title='Quem Somos' imagem={infoIcon} pageRoute='sobre' />
-          <Card title='Agendamento' imagem={wppIcon} pageRoute='agendamento' />  
+          <a href='https://wa.me/XXXXXXXX'> <Card title='Agendamento' imagem={wppIcon} />   </a>
+          
         </div>
     </div>
   );
