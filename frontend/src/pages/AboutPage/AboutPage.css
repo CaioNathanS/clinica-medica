@@ -1,0 +1,36 @@
+.aboutPage-title{
+    padding: 0px 120px;
+    color:  rgb(29, 157, 130);;
+    font-size: 40px;
+    text-align: center;
+}
+.aboutPage-text{
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.wppButton{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.wppButton :hover{
+    cursor: pointer;
+    background: rgb(17, 137, 43,0.8);
+}
+.wppButton i{
+    color: white;
+}
+.wppButton button{
+    color: white;
+    font-size: 16px;
+    width:120px;
+    padding: 6px 8px;
+    border-radius: 30px;
+    background: rgb(17, 137, 43);
+    border: none;
+}
+@media (max-width: 800px) {
+    .aboutPage-title { text-align: center; padding: 0; }
+    
+}

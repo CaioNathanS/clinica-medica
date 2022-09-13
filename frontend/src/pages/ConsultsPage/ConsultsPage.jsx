@@ -1,12 +1,29 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Header } from '../../components/Header/Header';
 import { InfoArea } from '../../components/InfoArea';
 import './ConsultsPage.css';
 export function ConsultsPage() {
 
-  const navigate = useNavigate();
-
+  const listaConsultas=[
+    'Urologia',
+    'Cardiologia',
+    'Ginecologia e Obstetrícia',
+    'Oftalmologia',
+    'Pediatria',
+    'Pneumologia',
+    'Gastro',
+    'Reumatologia',
+    'Ortopedia',
+    'Neuro Pediatria',
+    'Psiquiatria',
+    'Vascular/Angiologia',
+    'Otorrinolaringologia',
+    'Cirurgia Geral',
+    'Clínico Geral',
+    'Nutrição',
+    'Fonoaudiologia',
+    'Psicologia',
+  ]
  
 
   return (
@@ -19,49 +36,11 @@ export function ConsultsPage() {
           <i className='fa fa-long-arrow-left'/> 
             Voltar
         </button> */}
-      <hr/>
-      <div className='table'> 
-        <div className='tableHeader'>
-          <p>Consultas</p>
-          <p>Exames</p>
-          <p>Procedimentos</p>
-        </div>
-        <div className='tableBody'>
-        <div>
-        <p>Consultas</p>
-        <p>Exames</p>
-        <p>Procedimentos</p>
-        <p>Consultas</p>
-        <p>Exames</p>
-        <p>Procedimentos</p>
-        </div>
-        <div>
-        <p>Consultas</p>
-        <p>Exames</p>
-        <p>Procedimentos</p>
-        <p>Consultas</p>
-        <p>Exames</p>
-        <p>Procedimentos</p>
-        <p>Consultas</p>
-        <p>Exames</p>
-        <p>Procedimentos</p>
-        <p>Consultas</p>
-        <p>Exames</p>
-        <p>Procedimentos</p>
-        </div>
-        <div>
-        <p>Consultas</p>
-        <p>Exames</p>
-        <p>Procedimentos</p>
-        <p>Consultas</p>
-        <p>Exames</p>
-        <p>Procedimentos</p>
-        <p>Consultas</p>
-        <p>Exames</p>
-        <p>Procedimentos</p>
-        </div>
-      </div>
-      </div>
+    
+      <h1 className='consultsPage-title'> Consultas </h1>
+      {
+        listaConsultas.map((element,index)=> <p className='list-row' key={index}> {element} </p>)
+      }
       <hr/>
       <InfoArea/>
         

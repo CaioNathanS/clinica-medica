@@ -10,7 +10,6 @@ export function LandingPage() {
   return (
     <div className='landingPage-Container'>
       <Header/>
-      <hr/>
        <CardArea/>
         <hr/>
       <InfoArea/>
