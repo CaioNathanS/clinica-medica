@@ -1,3 +1,9 @@
+ .wppButton a{
+    background-color: transparent;
+}
+.wppButton a:hover{
+    background-color: transparent;
+}
 .aboutPage-title{
     padding: 0px 120px;
     color:  rgb(29, 157, 130);;

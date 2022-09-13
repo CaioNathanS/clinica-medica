@@ -12,7 +12,7 @@ export function Card({title,pageRoute,imagem}) {
       tabIndex={0} 
       onClick={()=>{ if(pageRoute) navigate(`${pageRoute}`)}}>
       <div className='ap'>
-          <img className='teste' src={imagem} alt='teste'/>
+          <img className='imagem' src={imagem} alt='icone'/>
       </div> 
       <div>
         <p> {title} </p> 
