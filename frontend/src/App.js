@@ -7,6 +7,8 @@ import { ExamsPage } from "./pages/ExamsPage";
 import { AboutPage } from "./pages/AboutPage/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
 import { SchedulingPage } from "./pages/SchedulingPage";
+import { ProcedurePage } from "./pages/ProcedurePage";
+import { DentistPage } from "./pages/DentistPage/DentistPage";
 function App() {
   return (
     <Router>
@@ -16,6 +18,8 @@ function App() {
         <Route path="/exames" element={<ExamsPage />} />
         <Route path="/sobre" element={<AboutPage />} />
         <Route path="/contato" element={<ContactPage />} />
+        <Route path="/procedimentos" element={<ProcedurePage />} />
+        <Route path="/odonto" element={<DentistPage />} />
         <Route path="/agendamento" element={<SchedulingPage />} />
       </Routes>
   </Router>
