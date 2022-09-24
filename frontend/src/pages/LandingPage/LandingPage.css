@@ -5,6 +5,23 @@
 .imagem{
     max-width: 50px;
 }
+img {
+    max-width: 100%;
+}
+.try{
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    z-index: 9;
+    top:800px;
+}
+
+.testeBg{
+
+    background: #000;
+}
 .cards {
     padding: 0px 15px 20px 15px;
     margin: 0 auto;
@@ -13,18 +30,31 @@
     gap: 1rem;
 }
 .card {
+    background: white !important;
     box-shadow: 5px 5px 5px 5px rgb(203, 199, 199);
     border-radius: 2px;
     font-size: 36px;
     text-align: center;
     color: rgb(63, 111, 124);
-    padding: 40px;
+    padding: 20px 0px; 
+    width: 10%;
     border: 1px solid transparent;
 }
-.card p{
+.cardBg {
+    background: gray !important;
+    box-shadow: 5px 5px 5px 5px rgb(203, 199, 199);
+    border-radius: 2px;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(63, 111, 124);
+    padding: 20px 0px;
+    width: 10%;
+    border: 1px solid transparent;
+}
+.card p, .cardBg p{
     color: rgb(65, 65, 65);
 }
-.card:hover{
+.card:hover, .cardBg:hover {
     text-decoration: underline;
     text-decoration-color:  rgb(65, 65, 65);
     cursor: pointer;

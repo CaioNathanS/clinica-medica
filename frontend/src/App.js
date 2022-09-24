@@ -9,10 +9,12 @@ import { ContactPage } from "./pages/ContactPage";
 import { SchedulingPage } from "./pages/SchedulingPage";
 import { ProcedurePage } from "./pages/ProcedurePage";
 import { DentistPage } from "./pages/DentistPage/DentistPage";
+import { HomeScreen } from "./pages/HomeScreen";
 function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/new" element={<HomeScreen />} />
         <Route path="/" element={<LandingPage />} />
         <Route path="/consultas" element={<ConsultsPage />} />
         <Route path="/exames" element={<ExamsPage />} />
