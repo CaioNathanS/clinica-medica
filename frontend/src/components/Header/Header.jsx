@@ -20,7 +20,7 @@ export function Header({change}) {
     },
     {
      label:'Contato',
-     value:'edit',
+     value:bg,
     },
   ]
 
