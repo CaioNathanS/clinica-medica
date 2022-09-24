@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomeScreen />} />
-        <Route path="/old" element={<LandingPage />} />
+        <Route path="/testHeroku" element={<LandingPage />} />
         <Route path="/consultas" element={<ConsultsPage />} />
         <Route path="/exames" element={<ExamsPage />} />
         <Route path="/sobre" element={<AboutPage />} />
