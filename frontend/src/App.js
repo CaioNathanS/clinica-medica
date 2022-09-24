@@ -7,11 +7,13 @@ import { ExamsPage } from "./pages/ExamsPage";
 import { AboutPage } from "./pages/AboutPage/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
 import { SchedulingPage } from "./pages/SchedulingPage";
+import { HomeScreen } from "./pages/HomeScreen/HomeScreen";
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<HomeScreen/> } />
+        <Route path="/old" element={<LandingPage />} />
         <Route path="/consultas" element={<ConsultsPage />} />
         <Route path="/exames" element={<ExamsPage />} />
         <Route path="/sobre" element={<AboutPage />} />

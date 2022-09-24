@@ -1,0 +1,47 @@
+.newCards{
+    z-index: 9999;
+    position: absolute;
+    top:80%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    margin-top: 20px;
+}
+.noBg{
+    text-align: center;
+    padding: 80px 40px;
+    background: rgb(15, 78, 237);
+
+}
+.bg{
+    text-align: center;
+    background: rgb(16, 7, 58);
+    padding: 80px 40px;
+}
+
+.bottom{
+    margin-top: 80px;
+    justify-content: center;    
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 300px));
+}
+.bottomCard1{
+    background: rgb(100, 43, 118);
+}
+.bottomCardBg1{
+    background: rgb(23, 208, 88);
+}
+.bottomCard2{
+    background: rgb(17, 113, 197);
+}
+.bottomCardBg2{
+    background: rgb(252, 127, 2);
+}
+
+@media (max-width: 800px) {
+    .bottom {margin-top: 50px;}
+    .bg,.noBg {padding: 30px;}
+}
